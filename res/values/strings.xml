@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">GPA Calculator</string>
+    <string name="app_name">GPA Calculator</string>
+    <color name="textcolor">#6699FF</color>
+    <string name = "choose_grade">Grade</string>
+    <string-array name="grades">
+        <item >A+</item>
+        <item >A</item>
+        <item >A-</item>
+        <item >B+</item>
+        <item >B</item>
+        <item >B-</item>
+        <item >C+</item>
+        <item >C</item>
+        <item >C-</item>
+        <item >D+</item>
+        <item >D</item>
+        <item >D-</item>
+        <item >F</item>
+        <item >I</item>
+    </string-array>  
+    <string name = "term">Choose Your Term</string>
+    <string-array name="semester">
+        <item >Fall</item>
+        <item >Spring</item>
+        <item >Winter</item>
+        <item >Summer</item>
+    </string-array>
+    <string name="choose_year">Choose Your Year</string>
+    <string-array name="year">
+        <item >Freshman</item>
+        <item>Sophomore</item>
+        <item >Junior</item>
+        <item >Senior</item>
+        <item>Grad 1</item>
+        <item>Grad 2</item>
+    </string-array>
+  
+</resources>

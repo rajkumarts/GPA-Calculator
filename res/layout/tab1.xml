@@ -1,0 +1,307 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/tab1Layout"
+    android:orientation="vertical">
+    
+       <LinearLayout
+       			android:id="@+id/linearLay"
+      			android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+       <Spinner
+          android:id="@+id/termspinner"
+          android:layout_width="154dp"
+          android:layout_height="wrap_content"
+          android:prompt="@string/term" />
+
+      <Spinner
+          		android:id="@+id/yearspinner"
+          		android:layout_width="match_parent"
+          		android:layout_height = "wrap_content"
+          		android:prompt="@string/choose_year"
+          		/>
+        		
+        </LinearLayout>
+    
+          <LinearLayout
+       			android:id="@+id/linearLayout1"
+      			android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+        		
+              	 <EditText
+          				  android:id="@+id/editText1"
+         				  android:layout_width="wrap_content"
+            			  android:layout_height="wrap_content"
+            			  android:layout_weight="0.03"
+            			  android:enabled="false"
+            			  android:text="Course Title"
+           				  android:textColor="@color/textcolor" >
+						  <requestFocus />
+       			 </EditText>
+              
+              	 <EditText
+              	     android:id="@+id/editText2"
+              	     android:layout_width="59dp"
+              	     android:layout_height="wrap_content"
+              	     android:layout_weight="0.02"
+              	     android:enabled="false"
+              	     android:text="Hrs"
+              	     android:textColor="@color/textcolor" />
+              	  
+              	  <EditText
+           			 android:id="@+id/editText3"
+           			 android:layout_width="wrap_content"
+           			 android:layout_height="wrap_content"
+           			 android:enabled="false"
+          			 android:text="Grade"
+           			 android:textColor="@color/textcolor" />
+        		
+          </LinearLayout>
+          
+        <LinearLayout
+        		android:id="@+id/linearLayout2"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+              
+             <EditText
+                 android:id="@+id/coursetitle1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.11" >
+
+				 <requestFocus />
+        	</EditText>
+        	
+            <EditText
+                android:id="@+id/creditHrs1"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02" />
+            
+             <Spinner
+           		android:id="@+id/grade1"
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:prompt="@string/choose_grade" />
+            
+        </LinearLayout>
+        
+         <!-- subject 2 -->
+
+   		 <LinearLayout
+      			  android:id="@+id/linearLayout3"
+        		  android:layout_width="match_parent"
+        		  android:layout_height="wrap_content"
+        		  android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/coursetitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.13" >
+
+				<requestFocus />
+       		 </EditText>
+       		 
+             <EditText
+                 android:id="@+id/creditHrs2"
+                 android:layout_width="59dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.02" />
+
+             <Spinner
+           			android:id="@+id/grade2"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:prompt="@string/choose_grade" />
+             
+   		     
+   		  </LinearLayout>
+   		  
+   		 
+   		  <!-- subject 3 -->
+
+   		 <LinearLayout
+      			  android:id="@+id/linearLayout4"
+        		  android:layout_width="match_parent"
+        		  android:layout_height="wrap_content"
+        		  android:orientation="horizontal" >
+   		 	
+           <EditText
+           		 android:id="@+id/coursetitle3"
+           		 android:layout_width="wrap_content"
+           		 android:layout_height="wrap_content"
+          		 android:layout_weight="0.12" >
+				<requestFocus />
+        	</EditText>
+        	
+            <EditText
+                android:id="@+id/creditHrs3"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02" />
+        
+       	<Spinner
+           android:id="@+id/grade3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:prompt="@string/choose_grade" />
+   		     
+        </LinearLayout>
+        
+   		<!-- subject 4 -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+       	
+        <EditText
+            android:id="@+id/coursetitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12" >
+			<requestFocus />
+        </EditText>
+        
+         <EditText
+             android:id="@+id/creditHrs4"
+             android:layout_width="59dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.02" />
+        
+          <Spinner
+           		android:id="@+id/grade4"
+          		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:prompt="@string/choose_grade" />	
+        
+      </LinearLayout>
+      
+     <!-- subject 5 -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+          
+          <EditText
+            android:id="@+id/coursetitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12" >
+            <requestFocus />
+        </EditText>
+        
+           <EditText
+               android:id="@+id/creditHrs5"
+               android:layout_width="59dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="0.02" />
+
+            <Spinner
+           		android:id="@+id/grade5"
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:prompt="@string/choose_grade" />
+          
+          
+     </LinearLayout>
+     
+      <!-- subject 6 -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <EditText
+            android:id="@+id/coursetitle6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12" >
+			<requestFocus />
+        </EditText>
+        
+          <EditText
+              android:id="@+id/creditHrs6"
+              android:layout_width="59dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.02" />
+          
+           <Spinner
+           		android:id="@+id/grade6"
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:prompt="@string/choose_grade" />
+                
+            
+     </LinearLayout>
+     
+    <!-- Calculate GPA button and display result -->
+
+	   <LinearLayout
+	       android:id="@+id/linearLayout8"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:gravity="center|center_horizontal|left|right"
+	       android:orientation="horizontal" >
+
+	       <Button
+	           android:id="@+id/calculate"
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:gravity="left"
+	           android:text="Calculate"
+	           android:textColor="@color/textcolor" />
+
+	       <Button
+	           android:id="@+id/save"
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:gravity="right"
+	           android:text="Save"
+	           android:textColor="@color/textcolor" />
+	             
+	     </LinearLayout>
+	     
+	   <LinearLayout
+      		  android:id="@+id/linearLayout9"
+        	  android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:gravity="center"
+        	  android:orientation="vertical" >
+	        
+	        <LinearLayout
+	            android:id="@+id/linearLayout10"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+			
+	             <TextView
+                		android:id="@+id/yourgpa"
+               			android:layout_width="wrap_content"
+                		android:layout_height="wrap_content"
+                		android:text="Your GPA - "
+                		android:textColor="@color/textcolor"/>
+	             
+	             
+          		<TextView
+           			   android:id="@+id/result"
+            		   android:layout_width="wrap_content"
+              		   android:layout_height="wrap_content"
+              		   android:text=""
+              		   android:textAppearance="?android:attr/textAppearanceLarge" 
+              		   android:textColor="@color/textcolor"/>				
+	            
+	         </LinearLayout>
+	        
+	    </LinearLayout>
+    
+</LinearLayout>    
